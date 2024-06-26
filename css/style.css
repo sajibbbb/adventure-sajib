@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-image: url(../images/WhatsApp\ Image\ 2024-06-26\ at\ 19.36.30_865778f6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    background-blend-mode: multiply;
+    padding: 15px 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.logo h2 span {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+nav {
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* bannder start */
+.banner-content {
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-content h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.banner-content span {
+    width: 150px;
+    height: 5px;
+    background: #FB2259;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.banner-content h1 {
+    font-size: 63px;
+    font-weight: 600;
+    margin: 35px;
+}
+
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #FB2259;
+    padding: 12px;
+    border-radius: 50px;
+}
+.banner-content a:hover{
+    transition: all 0.5s ease;
+    background-color: rgba(241, 241, 228, 0.726);
+    box-shadow: rgba(137, 137, 148, 0.363) 0px 7px 29px 0px;
+}
